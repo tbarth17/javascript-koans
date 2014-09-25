@@ -105,7 +105,7 @@ describe("About Applying What We Have Learnt", function() {
     /* chain() together map(), flatten() and reduce() */
     _(products).chain().map(function(pizza) {
       return pizza.ingredients;
-    })
+    }) 
 
     expect(ingredientCount['mushrooms']).toBe(2);
   });
